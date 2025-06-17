@@ -5,4 +5,5 @@ Browser("Advantage Shopping Online 2").Page("Advantage Shopping 2").WebElement("
 Browser("Advantage Shopping Online 2").Page("Advantage Shopping 2").WebEdit("password").SetSecure "673bbb9c79451e24a63b051e9450c814f7e71728e1cc" @@ script infofile_;_ZIP::ssf4.xml_;_
 Wait 15
 Browser("Advantage Shopping Online 2").Page("Advantage Shopping 2").WebButton("sign_in_btn").Click @@ script infofile_;_ZIP::ssf5.xml_;_
+Wait 15
 Browser("Advantage Shopping Online 2").Page("Advantage Shopping 2").WebElement("signInResultMessage").Check CheckPoint("signInResultMessage") @@ script infofile_;_ZIP::ssf7.xml_;_
