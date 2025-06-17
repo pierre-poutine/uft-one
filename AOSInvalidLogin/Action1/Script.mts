@@ -6,3 +6,4 @@ Browser("Advantage Shopping Online 2").Page("Advantage Shopping 2").WebEdit("pas
 Wait 3
 Browser("Advantage Shopping Online 2").Page("Advantage Shopping 2").WebButton("sign_in_btn").Click @@ script infofile_;_ZIP::ssf5.xml_;_
 Browser("Advantage Shopping Online 2").Page("Advantage Shopping 2").WebElement("signInResultMessage").Output CheckPoint("signInResultMessage_2")
+Browser("Advantage Shopping Online 2").Close
